@@ -1,0 +1,11 @@
+.media.stream-item.view-compact-citation img {
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .media.stream-item.view-compact-citation img {
+    max-width: 150px;
+  }
+}
